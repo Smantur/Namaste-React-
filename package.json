@@ -1,0 +1,14 @@
+{
+  "name": "namaste-react-",
+  "version": "1.0.0",
+  "description": "Getting started with react\r 1.What is Emmet?\r Emmet is a powerful toolkit for web developers that greatly enhances HTML and CSS workflow. It's integrated into various text editors, including Visual Studio Code (VSCode). In VSCode, Emmet provides shortcuts and abbreviations for writing HTML and CSS faster\r For example, you can type ul>li*5 and then press the Tab key, and Emmet will expand it into:",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Santosh mallappa mantur",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
