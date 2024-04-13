@@ -1,17 +1,7 @@
-//returns react element i.e Sample JS object
-// const heading = React.createElement("h1", { id: "heading", class: "head" }, "Namaste React");
-//creation of nested element
-/**
- * <div id="parent">
-  <div id="child">
-  <h1></h1>
-  <h2></h2>
- 
-  </div>
- * </div>
- * 
- * 
- */
+import React from "react"
+import ReactDOM from "react-dom/client"
+
+
 const element = React.createElement("div",
     { id: "parent" }, [React.createElement("div",
         { id: "child" }, [React.createElement("h1",
@@ -22,5 +12,4 @@ const element = React.createElement("div",
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-//takes the Js object and create resp element and put into the dom
 root.render(element)
